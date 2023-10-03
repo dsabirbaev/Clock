@@ -26,3 +26,9 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+
+@font-face {
+  font-family: RobotoFlex;
+  src: url(./assets/fonts/Roboto_Flex/static/RobotoFlex-Regular.ttf);
+}

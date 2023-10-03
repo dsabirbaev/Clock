@@ -1,14 +1,16 @@
 
 
 
-import Intro from "../Intro/Intro";
-import About from "../About/About";
+import PlayButton from "../PlayButton/PlayButton";
+import ShowNumber from "../ShowNumber/ShowNumber";
+
 
 const Layout = () => {
     return (
-        <>
-            <Intro/>
-        </>
+        <div className="flex items-center flex-col justify-center w-screen h-screen bg-[#F2FFF5]">
+            <ShowNumber/>
+            <PlayButton/>
+        </div>
     );
 };
 
