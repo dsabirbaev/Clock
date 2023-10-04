@@ -1,15 +1,18 @@
 
 
-
+import Header from "../../components/Header/Header";
 import PlayButton from "../PlayButton/PlayButton";
 import ShowNumber from "../ShowNumber/ShowNumber";
-
+import "./style.scss";
 
 const Layout = () => {
     return (
-        <div className="flex items-center flex-col justify-center w-screen h-screen bg-[#F2FFF5]">
-            <ShowNumber/>
-            <PlayButton/>
+        <div className="">
+            <Header />
+            <main className="flex items-center flex-col justify-center pt-10">
+                <ShowNumber />
+                <PlayButton />
+            </main>
         </div>
     );
 };
