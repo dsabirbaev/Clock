@@ -7,7 +7,7 @@ const Header = () => {
 
     useEffect(() => {
         
-        localStorage.setItem('darkMode', darkMode);
+        localStorage.setItem('darkMode', darkMode.toString());
         darkMode ?  document.documentElement.classList.add('dark') : document.documentElement.classList.remove('dark');
 
     }, [darkMode])
